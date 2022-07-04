@@ -19,11 +19,6 @@
 			"Name": "HsEngine",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "HsHttp",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
 		}
 	]
 }

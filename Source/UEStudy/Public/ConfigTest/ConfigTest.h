@@ -30,4 +30,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	bool ZipCompress(const FString& InData, TArray<uint8>& OutData);
+	bool ZipUncompress(const TArray<uint8>& InData, FString& OutJsonData);
+
 };
